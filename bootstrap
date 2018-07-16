@@ -26,16 +26,16 @@ osname=$(uname)
 export COMMANDLINE_TOOLS="/Library/Developer/CommandLineTools"
 export OLD_DOTFILES_BACKUP=$HOME/old_dotfiles_backup
 export DICTIONARY_DIR=$HOME/Library/Spelling
-export DOTFILES_REPO_URL="https://github.com/joshukraine/dotfiles.git"
+export DOTFILES_REPO_URL="https://github.com/jozzua/mac-bootstrap.git"
 export DOTFILES_DIR=$HOME/dotfiles
-export BOOTSTRAP_REPO_URL="https://github.com/joshukraine/mac-bootstrap.git"
+export BOOTSTRAP_REPO_URL="https://github.com/jozzua/mac-bootstrap.git"
 export BOOTSTRAP_DIR=$HOME/mac-bootstrap
 
 DEFAULT_BOOTSTRAP_BRANCH="master"
 DEFAULT_DOTFILES_BRANCH="master"
-DEFAULT_COMPUTER_NAME="Joshua's Mac"
-DEFAULT_HOST_NAME="joshuas-mac"
-DEFAULT_TIME_ZONE="Europe/Kiev"
+DEFAULT_COMPUTER_NAME="Ely's Mac"
+DEFAULT_HOST_NAME="ely-mac"
+DEFAULT_TIME_ZONE="Asia/Manila"
 DEFAULT_NODEJS_VERSION="10.2.1"
 DEFAULT_RUBY_VERSION="2.5.1"
 
@@ -249,12 +249,12 @@ bootstrap_echo "Done!"
 # * http://extensions.services.openoffice.org/en/project/ukrainian-dictionary
 ################################################################################
 
-bootstrap_echo "Step 6: Installing Ukrainian language utilities..."
-
-cp "$BOOTSTRAP_DIR"/lib/{hyph_uk.dic,uk_UA.aff,uk_UA.dic} "$DICTIONARY_DIR"
-
-bootstrap_echo "Done!"
-
+# bootstrap_echo "Step 6: Installing Ukrainian language utilities..."
+#
+# cp "$BOOTSTRAP_DIR"/lib/{hyph_uk.dic,uk_UA.aff,uk_UA.dic} "$DICTIONARY_DIR"
+#
+#bootstrap_echo "Done!"
+# I DON'T NEED THIS - ELY
 
 ################################################################################
 # 7. Install Fira Code font
