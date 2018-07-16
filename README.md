@@ -131,7 +131,7 @@ No one else's development setup will ever be a perfect match for you. That said,
 5) Update the README with your own info, instructions/reminders so you don't forget what you did, and especially the correct install URL:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/boostrap.log
+curl --remote-name https://raw.githubusercontent.com/jozzua/mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/boostrap.log
 ```
 
 6) Run the script on your machine and wait for the first error. :) Then fix, commit, push, and repeat.
