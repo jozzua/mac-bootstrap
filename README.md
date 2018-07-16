@@ -1,6 +1,5 @@
 # Mac Bootstrap
 
-![mac-bootstrap screenshot][screenshot]
 
 The purpose of this script is to provision a new machine running a fresh install of macOS. It installs and configures the software, dotfiles, and general preferences I use for web development — primarily [Ruby][ruby]/[Rails][rails] and [Node.js][nodejs]. The command line environment is based on Zsh (via [Oh-My-Zsh][omz]), [Vim][vim]/[Neovim][neovim] and [Tmux][tmux] running in [iTerm2][iterm2] or [Terminal.app][terminal].
 
@@ -34,12 +33,12 @@ Sign in to the Mac App Store. If you don't do this before running the `bootstrap
 To install with a one-liner, run this:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/joshukraine/mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/bootstrap.log
+curl --remote-name https://raw.githubusercontent.com/jozzua/mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/bootstrap.log
 ```
 
 Want to read through the script first?
 ```sh
-curl --remote-name https://raw.githubusercontent.com/joshukraine/mac-bootstrap/master/bootstrap
+curl --remote-name https://raw.githubusercontent.com/jozzua/mac-bootstrap/master/bootstrap
 less bootstrap
 sh bootstrap 2>&1 | tee ~/bootstrap.log
 ```
